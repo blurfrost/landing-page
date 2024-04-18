@@ -60,17 +60,14 @@ a {
     width: 60px;
     flex: 1 1 auto;
     margin: 16px 16px 16px 0;
+    gap: 8px;
 }
 
 .desc-right {
+    display: block;
     width: 60px;
+    height: auto;
     flex: 1 1 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    color: white;
-    margin: 16px 0 16px 16px;
 }
 
 button {
@@ -93,13 +90,10 @@ button {
     font-size: 18px;
 }
 
-.images {
-    display: flex;
-    justify-content: space-around;
-}
-
 .info-section {
-    padding: 32px 0;
+    padding: 32px 0 64px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .info {
@@ -107,11 +101,35 @@ button {
     font-size: 36px;
     font-weight: 1000;
     color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    flex: 1 1 auto;
+}
+
+.caption {
+    width: 240px;
+    flex: 1 1 auto;
+    text-align: center;
+    margin-top: 16px;
 }
 
 .quote {
