@@ -77,7 +77,7 @@ button {
     border: none;
     color: white;
     margin: 8px 0;
-    width: 80px;
+    width: 100px;
 }
 
 
@@ -108,6 +108,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .info-container {
@@ -154,6 +155,7 @@ button {
     font-weight: 800;
 }
 .action {
+    padding: 120px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,5 +163,26 @@ button {
 
 .container {
     background-color: #3882F6;
-    margin: 200px;
+    margin: 0 200px;
+    display: flex;
+    gap: 32px;
+    padding: 32px 64px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.larger-text {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.smaller-text {
+    font-size: 16px;
+    color: white;
+}
+
+.right-button {
+    border: 2px solid white;
+    border-radius: 8px;
 }
